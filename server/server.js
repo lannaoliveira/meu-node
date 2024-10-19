@@ -7,6 +7,11 @@ const server = http.createServer(async (req, res) => {
 
     await json(req);
 
+    if (req.method === 'POST' && (!req.body.title || !req.body.description)) {
+        res.end("Campos obrigatórios para cadastro: title e description");
+        return null;
+    }
+
     const extraiParametros = () => {
         const { url } = req;
         const regex = /\/([^\/]+)\/([^\/]+)/;

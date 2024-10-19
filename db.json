@@ -7,6 +7,14 @@
       "updatedAt": "2024-10-19T16:46:33.861Z",
       "title": "Minha tarefa 2",
       "description": "Descrição da minha tarefa 2"
+    },
+    {
+      "id": "176c1f4f-5600-4c24-b468-9cf904bff59a",
+      "completed_at": null,
+      "createdAt": "2024-10-19T17:14:40.316Z",
+      "updatedAt": "2024-10-19T17:14:40.316Z",
+      "title": "Minha tarefa 2",
+      "description": "Descrição da minha tarefa 2"
     }
   ]
 }

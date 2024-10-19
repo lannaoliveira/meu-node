@@ -10,7 +10,7 @@ export const rotas = [
         execucao: (props) => {
             const { res } = props;
             const dados = db.select(nomeTabela);
-            res.end(JSON.stringify(dados));
+            res.end(JSON.stringify(dados, null, 2));
         }
     },
     {
