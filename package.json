@@ -8,5 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "csv": "^6.3.10",
+    "csv-parse": "^5.5.6"
+  }
 }
